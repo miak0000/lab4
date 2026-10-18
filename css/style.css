@@ -2,7 +2,40 @@
     padding:0px;
     margin:0px;
 }
-.site-header img{
+
+.site-header {
     display: flex;
-    align-items: left;
+    justify-content: space-between;
+    background-color: #f6c531;
+}
+
+.hero-grid{
+    display: grid; 
+    grid-template-columns: 2fr 1fr;
+}
+
+.main-spotlight-banner{
+    background-color: #f8de8c;
+}
+
+.Sidebar-Stats{
+    background-color: #a9b494;
+}
+
+.cards-gallery{
+    grid-template-columns: repeat(auto-fit minmax(250px, 1fr));
+    background-color: #587042;
+}
+
+.card{
+    flex-direction: column;
+}
+
+.site-footer{
+    display:flex;
+    justify-content: space-between;
+}
+
+@media(min-width:768px){
+
 }
