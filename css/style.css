@@ -20,10 +20,6 @@
     margin-left: auto;
 }
 
-.container{
-    padding: 20px;
-}
-
 .hero-grid{
     display: grid; 
     grid-template-columns: 1fr;
@@ -73,7 +69,7 @@
 .site-footer{
     display:flex;
     justify-content: space-between;
-    background-color: #06362d;
+    background-color: #1a4b42;
     color: white;
     padding: 20px;
 }
