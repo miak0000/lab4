@@ -24,23 +24,19 @@
     display: grid; 
     grid-template-columns: 1fr;
     gap:0px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .main-spotlight-banner{
     background-color: #f8de8c;
-    Padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .Sidebar-Stats{
     background-color: #a9b494;
-    padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .cards-gallery{
@@ -55,7 +51,6 @@
     flex-direction: column;
     display: flex;
     padding: 15px;
-    gap: 10px;
 }
 
 .card img{
