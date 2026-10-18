@@ -2,3 +2,7 @@
     padding:0px;
     margin:0px;
 }
+.site-header img{
+    display: flex;
+    align-items: left;
+}
