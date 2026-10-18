@@ -12,45 +12,51 @@
     padding: 15px;
 }
 
-.sit-header img{
+.site-header img{
     width: 100%;
 }
 
 .site-header nav a{
-    margin-left: auto;
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
 }
 
 .hero-grid{
     display: grid; 
     grid-template-columns: 1fr;
-    gap:0px;
-    padding: 40px;
+    gap: 0px;
+    padding: 20px;
 }
 
 .main-spotlight-banner{
     background-color: #f8de8c;
     display: flex;
     flex-direction: column;
+    padding: 30px;
+    gap: 15px;
 }
 
 .Sidebar-Stats{
     background-color: #a9b494;
     display: flex;
     flex-direction: column;
+    padding: 30px;
+    gap: 20px;
 }
 
 .cards-gallery{
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #587042;
-    gap: 20px;
     padding: 20px;
 }
 
 .card{
     flex-direction: column;
+    background-color: #587042;
     display: flex;
     padding: 15px;
+    gap: 10px;
 }
 
 .card img{
@@ -59,6 +65,8 @@
 
 .card .btn-action{
     margin-top: auto;
+    color: #f8de8c;
+    text-decoration: none;
 }
 
 .site-footer{
