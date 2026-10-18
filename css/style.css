@@ -1,52 +1,88 @@
 *{
     padding:0px;
     margin:0px;
+    box-sizing: border-box;
 }
 
 .site-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #f6c531;
+    padding: 20px;
 }
-.sit img{
+
+.sit-header img{
     width: 100%;
+}
+
+.site-header nav a{
+    margin-left: auto;
+}
+
+.container{
+    padding: 20px;
 }
 
 .hero-grid{
     display: grid; 
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr;
+    padding: 50px;
+    gap: 20px;
 }
 
 .main-spotlight-banner{
     background-color: #f8de8c;
-    padding: 20px;
-    gap: 20px;
+    Padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .Sidebar-Stats{
     background-color: #a9b494;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .cards-gallery{
     display: grid;
-    grid-template-columns: repeat(250px, 1fr);
+    grid-template-columns: 1fr;
     background-color: #587042;
-    gap:20px;
+    gap: 20px;
+    padding: 20px;
 }
 
 .card{
     flex-direction: column;
+    display: flex;
+    padding: 15px;
+    gap: 10px;
 }
 
 .card img{
     width: 100%;
 }
 
+.card .btn-action{
+    margin-top: auto;
+}
+
 .site-footer{
     display:flex;
     justify-content: space-between;
+    background-color: #06362d;
+    color: white;
+    padding: 20px;
 }
 
 @media(min-width:768px){
-
+    .hero-grid{
+        grid-template-columns: 2fr 1fr;
+    }
+    .cards-gallery{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
 }
