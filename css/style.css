@@ -23,6 +23,7 @@
 .hero-grid{
     display: grid; 
     grid-template-columns: 1fr;
+    gap:0px;
 }
 
 .main-spotlight-banner{
@@ -30,7 +31,6 @@
     Padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
 }
 
 .Sidebar-Stats{
