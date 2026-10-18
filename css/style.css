@@ -24,6 +24,7 @@
     display: grid; 
     grid-template-columns: 1fr;
     gap:0px;
+    padding: 20px;
 }
 
 .main-spotlight-banner{
